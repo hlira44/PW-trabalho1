@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Insight</title>
+        <link rel="stylesheet" href="meuestilo.css">
+        <style>
+            body {
+                text-align: center;
+            }
+
+            img {
+                display: block; /* centraliza a imagem*/
+                margin: 0 auto; 
+            }
+
+            button {
+                border: 1px solid black;
+                width: 200px;
+                margin-top: 15px;
+                font-weight: bold;
+            }
+
+
+        </style>
+    </head>
+    
+<body>
+    <h1><img src="encom.jpeg" alt="50%"></h1>
+    <h2>Projeto ENCOM</h2>
+
+    <div>
+            <! -- Linha de código para criar um botao que abre outra página -->
+            <button type="button" onclick="redirectToLoginPage()">Login</button>
+    </div>
+
+    <script>
+        function redirectToLoginPage(){
+            window.location.href = "login.html"; 
+        }
+    </script>
+
+    <div>
+        <button type="button" onclick="redirectToRegisterPage()">Register</button>
+    </div>
+
+    <script>
+        function redirectToRegisterPage(){
+            window.location.href = "register.html"
+        }
+    </script>
+
+</body>
+</html>
