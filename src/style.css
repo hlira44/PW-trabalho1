@@ -5,3 +5,333 @@ body {
 
 }
     
+
+/*codigo do formulario*/
+
+
+body {
+    text-align: center;
+    font-size: x-large;
+    color: #fff;
+}
+
+img {
+    display: block; /* centraliza a imagem*/
+    margin: 0 auto; 
+}
+
+button {
+    border: 1px solid black;
+    width: 200px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+
+/*codigo do login*/
+
+p {
+    background-image: url("login_fundo.jpg");
+}
+
+
+.botao-voltar{
+    text-align: left;
+    top: 0px;
+    left: 0px;
+}
+
+.botao-voltar:hover{
+    background-color: #b30000;
+}
+
+
+
+h2{
+    text-align: center;
+    margin-top: 20%;
+    margin-right: 450px;
+    margin-bottom: -45px;
+    color: #fff;
+
+}
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(157, 152, 152);
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.1);
+}
+
+.form-group{
+    margin-bottom: 20px;  /*espaco entre as caixas de texto*/
+}
+
+.form-group label {
+    display: contents;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    text-align: left;
+    width: 65%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"]{
+    width: 15%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+.form-group input[type="submit"]{
+    width: 15%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+
+
+/*Codigo password*/
+
+.botao-voltar{
+    text-align: left;
+    top: 0px;
+    left: 0px;
+}
+
+.botao-voltar:hover{
+    background-color: #0056b3;
+}
+
+
+
+h2{
+    text-align: center;
+    margin-top: 20%;
+    margin-right: 250px;
+    margin-bottom: -45px;
+    color: #fff;
+
+}
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(136, 128, 128);
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group{
+    margin-bottom: 20px;  /*espaco entre as caixas de texto*/
+}
+
+.form-group label {
+    display: contents;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    text-align: center;
+    width: 65%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"]{
+    width: 15%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+.form-group input[type="submit"]{
+    width: 40%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+
+
+
+/*Codigo Register*/
+
+.botao-voltar{
+    text-align: left;
+    top: 0px;
+    left: 0px;
+}
+
+.botao-voltar:hover{
+    background-color: #0056b3;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-right: 450px;
+    margin-bottom: -45px;
+    color: #fff;
+
+}
+
+
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group{
+    margin-bottom: 15px;  /*espaco entre as caixas de texto*/
+}
+
+.form-group label {
+    display: contents;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.form-group input {
+    width: 65%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"]{
+    width: 15%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover{
+    background-color: #0056b3;
+}   
+
+
+
+/* Codigo pagina home.html */
+.perfil {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    width: 300px; /* ajuste conforme necessário */
+    height: 300px; /* ajuste conforme necessário */
+    background-color: #ccc; /* cor de fundo temporária */
+    border-radius: 50%; /* para criar uma borda circular */
+    overflow: hidden; /* para garantir que a imagem não ultrapasse os limites do contêiner */
+  }
+
+
+  .perfil img {
+    width: 100%; /* para garantir que a imagem preencha todo o espaço do contêiner */
+    height: auto; /* para manter a proporção da imagem */
+  }
+
+  .texto_utilizador{
+        text-align: center;
+        position: absolute;
+        margin-top: 10%;
+        margin-right: 30%;
+        margin-left: -150px;
+        font-size: 90px;
+  }
+
+  .botao_perfil{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 20px;
+        margin-right: 10px;
+  }
+
+  th, td {
+    text-align: center;
+    padding: 8px;
+    }
+
+    tr:nth-child(even){
+
+    }
+    
+
+
+    table {
+        
+        width: 90%;
+        
+    }
+
+
+    .container_tabela{
+        background-color: transparent;
+        width: 70%;
+    }
+
+
+    
+#popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    height: 100%;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#popup h3, #popup button, #popup input  {
+    padding: 10px;
+    margin: 5px;
+}
+
+    
